@@ -1,0 +1,24 @@
+package ar.edu.unju.escmi.tp3.ejercicio4;
+public class Cliente {
+    private String dni;
+    private String nombre;
+    private char categoria;
+    public Cliente(String dni, String nombre, char categoria) {
+        this.dni = dni;
+        this.nombre = nombre;
+        this.categoria = categoria;
+    }
+    public String getDni() {
+        return dni;
+    }
+    public String getNombre() {
+        return nombre;
+    }
+    public char getCategoria() {
+        return categoria;
+    }
+    @Override
+    public String toString() {
+        return "Cliente [DNI=" + dni + ", Nombre=" + nombre + ", Categoria=" + categoria + "]";
+    }
+}
